@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "./build",
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.json", ".env"],
+  "exclude": ["node_modules"],
+  "plugins": [
+    {
+      "name": "typescript-tslint-plugin"
+    }
+  ]
+}
